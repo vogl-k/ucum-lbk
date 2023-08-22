@@ -29,6 +29,10 @@ UCUM-LBK implements all basic functions outlined in the UCUM validation document
 ### convertNumberToUcum(double quantity)
 * Converts a given positive quantity into a format that is valid within UCUM (e.g., 1.5 -> 15.10^-1)
 
+## How can I use UCUM-LBK in my project?
+If you want to see an example of how UCUM-LBK can be used in the context of interconnected healthcare applications have a look at this paper __LUMA: A Mapping Assistant for Standardizing the Units of LOINC-Coded Laboratory Tests__ where I embedded the library into a REST-Service to deal with mappings between LOINC and UCUM.
+* https://www.mdpi.com/2076-3417/12/12/5848
+
 ## A note on case sensitive and capital representations
 Every UCUM unit is represented by a case sensitive and a capital code. Although
 case sensitive units make up the bulwark of UCUM units used, users may still wish
